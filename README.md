@@ -8,10 +8,6 @@
 
 This Application just for education purposes only and not for commercial use
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
 ## License
 
 This Application use [MIT license](http://opensource.org/licenses/MIT).

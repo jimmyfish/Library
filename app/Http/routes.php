@@ -18,3 +18,13 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/library', 'LibraryController@index');
+
+Route::get('/listBook', 'LibraryController@listBook');
+
+Route::get('/newBook', 'LibraryController@createBookView');
+
+Route::post('/newBook', 'LibraryController@createBook');
+
+Route::match(['get', 'post'], 'newTrans', 'TransaksiController@input');
